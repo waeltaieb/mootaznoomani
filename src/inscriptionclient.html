@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TuniWork</title>
+  </head>
+  <body>
+    <div class="min-h-screen py-40">
+      <div class="container mx-auto">
+        <div class="mx-auto flex w-10/12 flex-col overflow-hidden rounded-xl bg-white shadow-lg lg:w-8/12 lg:flex-row">
+          <div class="flex w-full flex-col items-center justify-center bg-cover bg-center bg-no-repeat p-12 lg:w-1/2" style="background-image: url('https://img.freepik.com/photos-gratuite/collage-creatif-experience-client_23-2149346504.jpg?w=900&t=st=1681613794~exp=1681614394~hmac=d6914c1f6824ac237af42fd8d3697c478b1fd9ce35ba226aed68a81aa02fdb9b');">
+            <h1 class="mb-3 text-3xl text-blue-50">Bienvenue</h1>
+          </div>
+          <div class="w-full px-12 py-16 lg:w-1/2">
+            <h2 class="mb-4 text-3xl">Faire inscrire</h2>
+            <p class="mb-4">Créez votre compte. C'est gratuit et ne prend qu'une minute</p>
+            <form action="#">
+              <div class="my-3 px-12">
+                <div class="flex flex-wrap items-center justify-center gap-4 my-10">
+                    <div class="mx-4 my-2">
+                  <label class="cursor-pointer">
+                    <input type="radio" class="peer sr-only" name="sexe" id="client" />
+                    <div class="w-24 rounded-md bg-white p-5 text-gray-600 ring-2 ring-transparent transition-all hover:shadow peer-checked:text-sky-600 peer-checked:ring-blue-400 peer-checked:ring-offset-2">
+                      <div class="flex flex-col gap-1">
+                        <div class="flex items-center justify-between">
+                          <p class="text-sm font-semibold uppercase text-gray-500">Client</p>
+                          <div>
+                            <svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m10.6 13.8l-2.175-2.175q-.275-.275-.675-.275t-.7.3q-.275.275-.275.7q0 .425.275.7L9.9 15.9q.275.275.7.275q.425 0 .7-.275l5.675-5.675q.275-.275.275-.675t-.3-.7q-.275-.275-.7-.275q-.425 0-.7.275ZM12 22q-2.075 0-3.9-.788q-1.825-.787-3.175-2.137q-1.35-1.35-2.137-3.175Q2 14.075 2 12t.788-3.9q.787-1.825 2.137-3.175q1.35-1.35 3.175-2.138Q9.925 2 12 2t3.9.787q1.825.788 3.175 2.138q1.35 1.35 2.137 3.175Q22 9.925 22 12t-.788 3.9q-.787 1.825-2.137 3.175q-1.35 1.35-3.175 2.137Q14.075 22 12 22Z" /></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </label>
+                </div>
+<div>
+                  <label class="cursor-pointer">
+                    <input type="radio" class="peer sr-only" name="sexe" id="societe" />
+                    <div class="w-24 rounded-md bg-white p-5 text-gray-600 ring-2 ring-transparent transition-all hover:shadow peer-checked:text-sky-600 peer-checked:ring-blue-400 peer-checked:ring-offset-2">
+                      <div class="flex flex-col gap-1">
+                        <div class="flex items-center justify-between">
+                          <p class="text-sm font-semibold uppercase text-gray-500">Societé</p>
+                          <div>
+                            <svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m10.6 13.8l-2.175-2.175q-.275-.275-.675-.275t-.7.3q-.275.275-.275.7q0 .425.275.7L9.9 15.9q.275.275.7.275q.425 0 .7-.275l5.675-5.675q.275-.275.275-.675t-.3-.7q-.275-.275-.7-.275q-.425 0-.7.275ZM12 22q-2.075 0-3.9-.788q-1.825-.787-3.175-2.137q-1.35-1.35-2.137-3.175Q2 14.075 2 12t.788-3.9q.787-1.825 2.137-3.175q1.35-1.35 3.175-2.138Q9.925 2 12 2t3.9.787q1.825.788 3.175 2.138q1.35 1.35 2.137 3.175Q22 9.925 22 12t-.788 3.9q-.787 1.825-2.137 3.175q-1.35 1.35-3.175 2.137Q14.075 22 12 22Z" /></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </label>
+                </div>
+                </div>
+              </div>
+              <div class="grid grid-cols-2 gap-5">
+                <input type="text" placeholder="Nom" class="border border-gray-400 px-2 py-1" />
+                <input type="text" placeholder="Prenom" class="border border-gray-400 px-2 py-1" />
+              </div>
+              <div class="mt-5">
+                <input type="text" placeholder="Nom utilisation" class="w-full border border-gray-400 px-2 py-1" />
+              </div>
+              <div class="mt-5">
+                <input type="text" placeholder="Votre Societé" class="w-full border border-gray-400 px-2 py-1" />
+              </div>
+              <div class="mt-5">
+                <input type="email" placeholder="Email" class="w-full border border-gray-400 px-2 py-1" />
+              </div>
+              <div class="mt-5">
+                <input type="password" placeholder="Mot de Passe" class="w-full border border-gray-400 px-2 py-1" />
+              </div>
+              <div class="mt-5">
+                <input type="password" placeholder="Confirmer Mot de passe" class="w-full border border-gray-400 px-2 py-1" />
+              </div>
+              <div class="mt-5">
+                <input type="date" class="w-full border border-gray-400 px-2 py-1" />
+              </div>
+              <div class="mt-5">
+                <input type="checkbox" class="border border-gray-400" />
+                <span> J'accepte <a href="#" class="font-semibold text-blue-500">les conditions d'utilisation</a> et <a href="#" class="font-semibold text-blue-500">la politique de confidentialité</a> </span>
+              </div>
+              <div class="mt-5">
+                <button class="w-full bg-blue-500 py-3 text-center text-white">Register Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
